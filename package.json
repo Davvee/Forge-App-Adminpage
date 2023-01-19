@@ -1,0 +1,20 @@
+{
+  "name": "jira-admin-page-custom-ui",
+  "version": "1.0.7",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@forge/api": "^2.9.1",
+    "@forge/bridge": "^2.5.0",
+    "@forge/resolver": "^1.4.8",
+    "@mui/material": "^5.11.5",
+    "mui": "^0.0.1"
+  }
+}

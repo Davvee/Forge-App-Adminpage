@@ -1,0 +1,18 @@
+modules:
+  jira:adminPage:
+    - key: forge-app-adminpage-hello-world-admin-page
+      resource: main
+      resolver:
+        function: resolver
+      title: forge-app-adminpage
+  function:
+    - key: resolver
+      handler: index.handler
+resources:
+  - key: main
+    path: static/hello-world/build
+app:
+  id: ari:cloud:ecosystem::app/58803ee7-24dc-455c-b15a-8d238d29219f
+permissions:
+  scopes:
+    - read:jira-work
